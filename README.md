@@ -14,41 +14,6 @@ FormEdge is an open-source, lightweight npm package providing basic drag-and-dro
 
 ---
 
-## 🚀 Project Structure
-
-```plaintext
-formedge/
-├── src/
-│   ├── lib/                     # Package code
-│   │   ├── components/          # Core form components
-│   │   │   ├── FormBuilder.tsx    # Custom Form Builder component
-│   │   │   ├── FormViewer.tsx     # Custom Form Viewer component
-│   │   │   └── ui/              # shadcn/ui components
-│   │   │       ├── butotn.tsx   # Button component from shadcn/ui
-│   │   │       ├── checkbox.tsx # Checkbox component from shadcn/ui
-│   │   │       ├── input.tsx    # Input component from shadcn/ui
-│   │   │       └── form.tsx     # Form wrapper from shadcn/ui
-│   │   ├── hooks/               # Custom hooks for form handling
-│   │   ├── styles/              # TailwindCSS and other styles
-│   │   │   └── index.css        # Main TailwindCSS file
-│   │   ├── utils/               # Utility functions
-│   │   └── index.ts             # Entry point for package exports
-│   ├── dev/                     # Development/demo environment
-│   │   ├── App.tsx              # Demo App for viewing components
-│   │   ├── main.tsx             # Main entry for dev mode
-│   │   └── index.html           # HTML file for dev environment
-├── components.json              # shadcn/ui configuration
-├── .eslintrc                    # ESLint configuration
-├── .prettierrc                  # Prettier configuration
-├── tailwind.config.js           # TailwindCSS configuration
-├── tsconfig.json                # TypeScript configuration with alias paths
-├── vite.config.ts               # Vite configuration for dev mode
-├── vite.config.prod.ts          # Production Vite configuration for npm publishing
-└── README.md                    # Documentation and usage guide
-```
-
----
-
 ## 📦 Installation
 
 To install the FormEdge package, run:
@@ -147,6 +112,41 @@ To apply custom styles, import the Tailwind base styles in your main CSS:
 - **Frontend Only**: The package is frontend-focused, providing essential components without backend dependencies.
 - **Minimal Dependencies**: Self-contained npm package designed to integrate smoothly with other projects.
 - **Hosted Publicly**: Available on the npm registry as a free and open-source tool, allowing unrestricted access.
+
+---
+
+## 🚀 Project Structure
+
+```plaintext
+formedge/
+├── src/
+│   ├── lib/                     # Package code
+│   │   ├── components/          # Core form components
+│   │   │   ├── FormBuilder.tsx    # Custom Form Builder component
+│   │   │   ├── FormViewer.tsx     # Custom Form Viewer component
+│   │   │   └── ui/              # shadcn/ui components
+│   │   │       ├── butotn.tsx   # Button component from shadcn/ui
+│   │   │       ├── checkbox.tsx # Checkbox component from shadcn/ui
+│   │   │       ├── input.tsx    # Input component from shadcn/ui
+│   │   │       └── form.tsx     # Form wrapper from shadcn/ui
+│   │   ├── hooks/               # Custom hooks for form handling
+│   │   ├── styles/              # TailwindCSS and other styles
+│   │   │   └── index.css        # Main TailwindCSS file
+│   │   ├── utils/               # Utility functions
+│   │   └── index.ts             # Entry point for package exports
+│   ├── dev/                     # Development/demo environment
+│   │   ├── App.tsx              # Demo App for viewing components
+│   │   ├── main.tsx             # Main entry for dev mode
+│   │   └── index.html           # HTML file for dev environment
+├── components.json              # shadcn/ui configuration
+├── .eslintrc                    # ESLint configuration
+├── .prettierrc                  # Prettier configuration
+├── tailwind.config.js           # TailwindCSS configuration
+├── tsconfig.json                # TypeScript configuration with alias paths
+├── vite.config.ts               # Vite configuration for dev mode
+├── vite.config.prod.ts          # Production Vite configuration for npm publishing
+└── README.md                    # Documentation and usage guide
+```
 
 ---
 
